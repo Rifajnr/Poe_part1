@@ -74,7 +74,7 @@ namespace Poe_part1
                     isFirstInteraction = false; // Set the flag to false after the first interaction
                 }
 
-                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write($"{user_name}:->");
                 Console.ForegroundColor = ConsoleColor.White;
 
